@@ -6,9 +6,9 @@ require_once('vendor/autoload.php');
 $encode = \JheID\Encode\JSON::getInstance();
 
 \JheID\NIK::getInstance()->Parse([
-    "3215102103920004",
-    //"3215101608960004",
-    //"3204110609970004"
+    "3215102103xxxxxx",
+    "3215101608xxxxxx",
+    "3204110609xxxxxx"
 ], function($response) use($encode) {
     $encode->Build($response, function($data) {
         echo !is_array($response) ? $data : [];
