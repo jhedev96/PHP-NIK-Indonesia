@@ -3,7 +3,7 @@ require_once (__DIR__ . '/vendor/autoload.php');
 
 error_reporting(0);
 
-// https://api.jhe.id/v2/nik/3215102103920004.json
+// https://api.jhe.id/v2/nik/32151021039xxxxx.json
 
 $app = new Silex\Application();
 
